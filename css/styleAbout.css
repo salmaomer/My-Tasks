@@ -1,0 +1,115 @@
+.container{
+  display: flex;
+  justify-content: center;
+  margin: 15px 20px 0px 20px;
+  width: 98%;
+  height: 100%;
+}
+.supcontainer {
+  display: flex;
+  justify-content: space-between; 
+  justify-content: center;
+  /* gap: 20px; */
+  padding: 20px;
+  background-color: #f6f6f6;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgb(26 45 55 / 90%);;
+  width: 73%;
+  height: 78%;
+  text-align: center;        
+}
+
+#information{
+  display: flex;
+  flex-direction: column;
+}
+
+#cnter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.UserImge {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  overflow: hidden;
+  border-radius: 70px;
+  background-color: #192b35; 
+}
+
+.UserImge img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.Userdata{
+  font-family: math;
+}
+
+.Userdata h2{
+  margin: 10px;
+  font-size: 18px;
+}
+
+.Userdata p{
+  margin: 10px;
+  font-size: 15px;
+}
+#insert{
+  display: flex;    
+  flex-direction: column;
+  justify-content: space-between; 
+  justify-content: center; 
+  padding: 20px;
+  background-color: #f6f6f6;
+  padding: 30px;
+  width: 73%;
+  height: 73%;
+  text-align: center; 
+}
+
+#insert h1 {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #192b35;
+  margin-bottom: 20px;
+}
+
+#content {
+  max-width: 500px;
+  margin: 0 auto; 
+  background-color: #192b35;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#content input, #content textarea {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-family: 'Segoe UI', sans-serif;
+  transition: border-color 0.3s ease;
+}
+
+#content input:focus, #content textarea:focus {
+  border-color: #f28a7c;
+  outline: none;
+}
+
+#content textarea {
+  resize: vertical;
+  min-height: 120px;
+}
+
+
+
